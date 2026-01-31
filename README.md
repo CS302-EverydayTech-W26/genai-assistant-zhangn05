@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tJ0XQf6e)
+### Web Assistant
+1. Run `python3 web_assistant.py`
+2. Go to `http://127.0.0.1:5000/`
+3. Prompt the web assistant:
+   - URL prompt format: In URL, type `http://127.0.0.1:5000/prompt?=[Your+Prompt+Here]`
+     If prompt involves multiple words, separate with a `+`
+     Example: `http://127.0.0.1:5000/prompt?=Good+Morning`
+   - Flask form format: Go to `Prompt:`, enter promp, and hit send

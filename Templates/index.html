@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Web AI Assistant</title>
+</head>
+<body>
+  <h1>Web AI Assistant</h1>
+
+    <p><b>How to use:</b></p>
+    <p>Form: type a prompt below and submit</p>
+    <p>URL: go to /prompt?=YOUR+MESSAGE</p>
+
+  <form action="/read-form" method="post">
+    <label for="prompt">Prompt:</label>
+    <input id="prompt" name="prompt" type="text"/>
+    <button type="submit">Send</button>
+  </form>
+    <p>{{ user_text }}</p>
+
+    <p>{{ response_text }}</p>
+</body>
+</html>

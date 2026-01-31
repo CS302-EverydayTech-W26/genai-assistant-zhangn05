@@ -20,7 +20,7 @@ class GeminiClient:
         
         else:
             # TO DO: Modify system instruction based on the purpose of your GenAI Assistant
-            system_instruction = "You are concise and professional"
+            system_instruction = "business-like and professional"
             
             # Add the prompt to the chat history
             self.chat_history += [types.Content(

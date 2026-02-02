@@ -1,9 +1,5 @@
 from gemini_client import *
-
 from flask import Flask, request, render_template
-app = Flask(__name__)
-from flask import Flask, request, render_template
-from gemini_client import GeminiClient
 
 app = Flask(__name__)
 client = GeminiClient()  

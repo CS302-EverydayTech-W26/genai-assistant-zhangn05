@@ -8,12 +8,6 @@ client = GeminiClient()
 def index():
     return render_template("index.html")
 
-@app.route("/prompt", methods=["GET"])
-def prompt_url():
-    user_text = request.args.get("").strip()
-    response_text = client.generate_response(user_text)
-    return render_template("index.html", user_text=user_text, response_text=response_text)
-
 @app.route("/read-form", methods=["POST"])
 def read_form():
     user_text = request.form.get("prompt", "").strip()
